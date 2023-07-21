@@ -38,7 +38,7 @@ pip3 install -r requirements.txt
 
 Please see the README.md file in corresponding folder to get instructions of how to run these experimnets.
 
-## Cite
+## Citation
 Please cite our paper if you use this code in your research work.
 
 ## Questions/Bugs
