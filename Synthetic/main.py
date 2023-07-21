@@ -65,7 +65,7 @@ if __name__ == "__main__":
     parser.add_argument("--threshold", type=float, default=3, help="threshold parameter of FPFC for clustering")
     parser.add_argument("--thresholdL1", type=float, default=2, help="threshold parameter of FPFCL1 for clustering")
     parser.add_argument("--lamdaL1", type=float, default=0.6, help="Regularization parameter of FPFCL1")
-    parser.add_argument("--num_global_iters", type=int, default = 1000, help="Communication rounds")
+    parser.add_argument("--num_global_iters", type=int, default = 2000, help="Communication rounds")
     parser.add_argument("--local_epochs", type=int, default=10, help="Local steps")
     parser.add_argument("--num_users", type=int, default=100, help="Number of devices")
     parser.add_argument("--K", type=int, default=4, help="Number of clusters")
